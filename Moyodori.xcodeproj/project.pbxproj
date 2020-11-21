@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73ACA43C256903E200AAB46A /* MoyodoriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73ACA43B256903E200AAB46A /* MoyodoriApp.swift */; };
+		73ACA43E256903E200AAB46A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73ACA43D256903E200AAB46A /* ContentView.swift */; };
+		73ACA440256903E400AAB46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73ACA43F256903E400AAB46A /* Assets.xcassets */; };
+		73ACA443256903E400AAB46A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73ACA442256903E400AAB46A /* Preview Assets.xcassets */; };
+		73ACA44E256903E400AAB46A /* MoyodoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73ACA44D256903E400AAB46A /* MoyodoriTests.swift */; };
+		73ACA459256903E400AAB46A /* MoyodoriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73ACA458256903E400AAB46A /* MoyodoriUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73ACA44A256903E400AAB46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73ACA430256903E200AAB46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73ACA437256903E200AAB46A;
+			remoteInfo = Moyodori;
+		};
+		73ACA455256903E400AAB46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73ACA430256903E200AAB46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73ACA437256903E200AAB46A;
+			remoteInfo = Moyodori;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73ACA438256903E200AAB46A /* Moyodori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moyodori.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73ACA43B256903E200AAB46A /* MoyodoriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyodoriApp.swift; sourceTree = "<group>"; };
+		73ACA43D256903E200AAB46A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73ACA43F256903E400AAB46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73ACA442256903E400AAB46A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73ACA444256903E400AAB46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73ACA449256903E400AAB46A /* MoyodoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyodoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73ACA44D256903E400AAB46A /* MoyodoriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyodoriTests.swift; sourceTree = "<group>"; };
+		73ACA44F256903E400AAB46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73ACA454256903E400AAB46A /* MoyodoriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyodoriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73ACA458256903E400AAB46A /* MoyodoriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyodoriUITests.swift; sourceTree = "<group>"; };
+		73ACA45A256903E400AAB46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73ACA435256903E200AAB46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73ACA446256903E400AAB46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73ACA451256903E400AAB46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73ACA42F256903E200AAB46A = {
+			isa = PBXGroup;
+			children = (
+				73ACA43A256903E200AAB46A /* Moyodori */,
+				73ACA44C256903E400AAB46A /* MoyodoriTests */,
+				73ACA457256903E400AAB46A /* MoyodoriUITests */,
+				73ACA439256903E200AAB46A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73ACA439256903E200AAB46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73ACA438256903E200AAB46A /* Moyodori.app */,
+				73ACA449256903E400AAB46A /* MoyodoriTests.xctest */,
+				73ACA454256903E400AAB46A /* MoyodoriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73ACA43A256903E200AAB46A /* Moyodori */ = {
+			isa = PBXGroup;
+			children = (
+				73ACA43B256903E200AAB46A /* MoyodoriApp.swift */,
+				73ACA43D256903E200AAB46A /* ContentView.swift */,
+				73ACA43F256903E400AAB46A /* Assets.xcassets */,
+				73ACA444256903E400AAB46A /* Info.plist */,
+				73ACA441256903E400AAB46A /* Preview Content */,
+			);
+			path = Moyodori;
+			sourceTree = "<group>";
+		};
+		73ACA441256903E400AAB46A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73ACA442256903E400AAB46A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73ACA44C256903E400AAB46A /* MoyodoriTests */ = {
+			isa = PBXGroup;
+			children = (
+				73ACA44D256903E400AAB46A /* MoyodoriTests.swift */,
+				73ACA44F256903E400AAB46A /* Info.plist */,
+			);
+			path = MoyodoriTests;
+			sourceTree = "<group>";
+		};
+		73ACA457256903E400AAB46A /* MoyodoriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73ACA458256903E400AAB46A /* MoyodoriUITests.swift */,
+				73ACA45A256903E400AAB46A /* Info.plist */,
+			);
+			path = MoyodoriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73ACA437256903E200AAB46A /* Moyodori */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73ACA45D256903E400AAB46A /* Build configuration list for PBXNativeTarget "Moyodori" */;
+			buildPhases = (
+				73ACA434256903E200AAB46A /* Sources */,
+				73ACA435256903E200AAB46A /* Frameworks */,
+				73ACA436256903E200AAB46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moyodori;
+			productName = Moyodori;
+			productReference = 73ACA438256903E200AAB46A /* Moyodori.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73ACA448256903E400AAB46A /* MoyodoriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73ACA460256903E400AAB46A /* Build configuration list for PBXNativeTarget "MoyodoriTests" */;
+			buildPhases = (
+				73ACA445256903E400AAB46A /* Sources */,
+				73ACA446256903E400AAB46A /* Frameworks */,
+				73ACA447256903E400AAB46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73ACA44B256903E400AAB46A /* PBXTargetDependency */,
+			);
+			name = MoyodoriTests;
+			productName = MoyodoriTests;
+			productReference = 73ACA449256903E400AAB46A /* MoyodoriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73ACA453256903E400AAB46A /* MoyodoriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73ACA463256903E400AAB46A /* Build configuration list for PBXNativeTarget "MoyodoriUITests" */;
+			buildPhases = (
+				73ACA450256903E400AAB46A /* Sources */,
+				73ACA451256903E400AAB46A /* Frameworks */,
+				73ACA452256903E400AAB46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73ACA456256903E400AAB46A /* PBXTargetDependency */,
+			);
+			name = MoyodoriUITests;
+			productName = MoyodoriUITests;
+			productReference = 73ACA454256903E400AAB46A /* MoyodoriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73ACA430256903E200AAB46A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					73ACA437256903E200AAB46A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					73ACA448256903E400AAB46A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 73ACA437256903E200AAB46A;
+					};
+					73ACA453256903E400AAB46A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 73ACA437256903E200AAB46A;
+					};
+				};
+			};
+			buildConfigurationList = 73ACA433256903E200AAB46A /* Build configuration list for PBXProject "Moyodori" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73ACA42F256903E200AAB46A;
+			productRefGroup = 73ACA439256903E200AAB46A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73ACA437256903E200AAB46A /* Moyodori */,
+				73ACA448256903E400AAB46A /* MoyodoriTests */,
+				73ACA453256903E400AAB46A /* MoyodoriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73ACA436256903E200AAB46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73ACA443256903E400AAB46A /* Preview Assets.xcassets in Resources */,
+				73ACA440256903E400AAB46A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73ACA447256903E400AAB46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73ACA452256903E400AAB46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73ACA434256903E200AAB46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73ACA43E256903E200AAB46A /* ContentView.swift in Sources */,
+				73ACA43C256903E200AAB46A /* MoyodoriApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73ACA445256903E400AAB46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73ACA44E256903E400AAB46A /* MoyodoriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73ACA450256903E400AAB46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73ACA459256903E400AAB46A /* MoyodoriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73ACA44B256903E400AAB46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73ACA437256903E200AAB46A /* Moyodori */;
+			targetProxy = 73ACA44A256903E400AAB46A /* PBXContainerItemProxy */;
+		};
+		73ACA456256903E400AAB46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73ACA437256903E200AAB46A /* Moyodori */;
+			targetProxy = 73ACA455256903E400AAB46A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73ACA45B256903E400AAB46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73ACA45C256903E400AAB46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73ACA45E256903E400AAB46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Moyodori/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RPYMS8GV4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Moyodori/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Moyodori.Moyodori;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73ACA45F256903E400AAB46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Moyodori/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RPYMS8GV4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Moyodori/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Moyodori.Moyodori;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73ACA461256903E400AAB46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RPYMS8GV4;
+				INFOPLIST_FILE = MoyodoriTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Moyodori.MoyodoriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moyodori.app/Moyodori";
+			};
+			name = Debug;
+		};
+		73ACA462256903E400AAB46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RPYMS8GV4;
+				INFOPLIST_FILE = MoyodoriTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Moyodori.MoyodoriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moyodori.app/Moyodori";
+			};
+			name = Release;
+		};
+		73ACA464256903E400AAB46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RPYMS8GV4;
+				INFOPLIST_FILE = MoyodoriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Moyodori.MoyodoriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moyodori;
+			};
+			name = Debug;
+		};
+		73ACA465256903E400AAB46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RPYMS8GV4;
+				INFOPLIST_FILE = MoyodoriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Moyodori.MoyodoriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moyodori;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73ACA433256903E200AAB46A /* Build configuration list for PBXProject "Moyodori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73ACA45B256903E400AAB46A /* Debug */,
+				73ACA45C256903E400AAB46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73ACA45D256903E400AAB46A /* Build configuration list for PBXNativeTarget "Moyodori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73ACA45E256903E400AAB46A /* Debug */,
+				73ACA45F256903E400AAB46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73ACA460256903E400AAB46A /* Build configuration list for PBXNativeTarget "MoyodoriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73ACA461256903E400AAB46A /* Debug */,
+				73ACA462256903E400AAB46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73ACA463256903E400AAB46A /* Build configuration list for PBXNativeTarget "MoyodoriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73ACA464256903E400AAB46A /* Debug */,
+				73ACA465256903E400AAB46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73ACA430256903E200AAB46A /* Project object */;
+}

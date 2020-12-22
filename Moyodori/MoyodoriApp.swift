@@ -11,7 +11,13 @@ import SwiftUI
 struct MoyodoriApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView{
+                ContentView()
+                ImgView()
+                MapView()
+            }
+            .tabViewStyle(PageTabViewStyle())
+            //ContentView()
         }
     }
 }
